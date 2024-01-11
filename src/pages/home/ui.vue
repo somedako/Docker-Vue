@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { Header } from '@/widgets/header'
 import { BottomTabNavigator } from '@/widgets/bottom-tab-navigator'
+import { Carousel } from '@/features/carousel'
 import { Footer } from '@/widgets/footer'
 import { Content } from '@/shared/content'
 </script>
@@ -8,6 +9,6 @@ import { Content } from '@/shared/content'
 <template>
   <Header />
   <BottomTabNavigator />
-  <Content />
+  <Content> <Carousel /></Content>
   <Footer />
 </template>

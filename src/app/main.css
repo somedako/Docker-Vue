@@ -38,3 +38,7 @@
   --shadow-secondary-l: 8px 16px 32px 0px rgba(112, 192, 91, 0.2);
   --shadow-secondary-xl: 16px 32px 64px 0px rgba(112, 192, 91, 0.2);
 }
+
+/* platform */
+--tablet: 1207px;
+--mobile: 767px;
